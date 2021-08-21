@@ -101,7 +101,6 @@ const TodoCreate = ({
     selectedDate.dates && value ? setClose(false) : setClose(true);
   }, [selectedDate, value]);
 
-  // const handleToggle = () => setClose(!open);
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setValue(e.target.value);
 

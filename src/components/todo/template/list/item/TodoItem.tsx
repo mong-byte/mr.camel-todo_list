@@ -121,7 +121,7 @@ const TodoItem = ({
 }: TodoItemProps) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [editMode, setEditMode] = useState(false);
-  // const done = false;
+
   const { done } = todo;
   const handleToggle = () => {
     toggleTodo(todo.id);
